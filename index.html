@@ -43,6 +43,7 @@ h2{font:600 1.5rem/1.2 var(--display);margin:0;text-wrap:balance}
 .cta:hover{background:var(--accent)}
 .shot{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface);box-shadow:0 18px 40px -24px rgba(0,0,0,.35)}
 .shot img{display:block;width:100%;height:auto}
+.shot-phone{max-width:300px;justify-self:center;border-radius:28px;border:8px solid var(--fg)}
 .about{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:40px;padding:56px 0;border-top:1px solid var(--line)}
 .about-text{max-width:640px}
 .about-text p{margin:0 0 16px}
@@ -85,6 +86,22 @@ footer a{color:var(--muted)}
       </div>
       <a class="shot" href="workbench/" aria-label="Open the workbench">
         <img src="assets/workbench-drawer.png" width="1440" height="900" alt="Kanban board of product roles with a side panel showing a role's score across five dimensions">
+      </a>
+    </article>
+    <article class="project" id="ouichef">
+      <div class="project-text">
+        <span class="kicker">OuiChef</span>
+        <h2>From saved food inspiration to a meal you actually cook.</h2>
+        <p class="lead">We save recipes from videos and posts, then never cook them: quantities are vague, nothing is planned and the shopping list is missing. OuiChef connects the loop: save, review, plan, shop, cook.</p>
+        <ul class="choices">
+          <li><b>Review before trust.</b> An imported recipe starts as an editable draft, because AI extraction can get quantities wrong.</li>
+          <li><b>One quantity engine.</b> Portions, meal planning and the grocery list share the same rules. Scaling a recipe changes amounts and leaves times and temperatures alone.</li>
+          <li><b>Local first.</b> The library, plan and checklists work without an account.</li>
+        </ul>
+        <a class="cta" href="ouichef/">Open OuiChef <span aria-hidden="true">→</span></a>
+      </div>
+      <a class="shot shot-phone" href="ouichef/" aria-label="Open OuiChef">
+        <img src="assets/ouichef-library.png" width="780" height="1688" alt="OuiChef recipe library on a phone, with a lemon couscous featured and two more recipes below">
       </a>
     </article>
   </main>
