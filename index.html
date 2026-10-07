@@ -76,6 +76,21 @@ footer a{color:var(--muted)}
   </section>
 
   <main id="work">
+    <article class="project" id="lookpilot">
+      <div class="project-text">
+        <span class="kicker">Look Pilot</span>
+        <h2>Tomorrow's office outfit, from the clothes you already own.</h2>
+        <p class="lead">Most mornings the hard part is picking a combination that suits the weather, the day and what is clean. Look Pilot suggests one outfit, shows it on you, and lets you swap a single piece.</p>
+        <ul class="choices">
+          <li><b>Edit one garment, keep the person.</b> Changing a piece edits only that garment on the last photo with Ideogram 4.5, so the face and pose stay the same.</li>
+            <li><b>Show the wait.</b> A swap takes about 9 seconds while trying combinations; the app shows the progress instead of hiding it.</li>
+        </ul>
+        <a class="cta" href="lookpilot/">Open Look Pilot <span aria-hidden="true">→</span></a>
+      </div>
+      <a class="shot" href="lookpilot/" aria-label="Open Look Pilot">
+        <img src="assets/lookpilot-edit.png" width="1280" height="900" alt="Look Pilot editing tomorrow's outfit: a man in a navy jacket and olive trousers, next to a choice of trousers to swap">
+      </a>
+    </article>
     <article class="project" id="workbench">
       <div class="project-text">
         <span class="kicker">Job Search Workbench</span>
@@ -108,21 +123,6 @@ footer a{color:var(--muted)}
         <img src="assets/ouichef-library.png" width="780" height="1688" alt="OuiChef recipe library on a phone, with a lemon couscous featured and two more recipes below">
       </a>
     </article>
-    <article class="project" id="lookpilot">
-      <div class="project-text">
-        <span class="kicker">Look Pilot</span>
-        <h2>Tomorrow's office outfit, from the clothes you already own.</h2>
-        <p class="lead">Most mornings the hard part is picking a combination that suits the weather, the day and what is clean. Look Pilot suggests one outfit, shows it on you, and lets you swap a single piece.</p>
-        <ul class="choices">
-          <li><b>Edit one garment, keep the person.</b> Changing a piece edits only that garment on the last photo with Ideogram 4.5, so the face and pose stay the same.</li>
-            <li><b>Show the wait.</b> A swap takes about 9 seconds while trying combinations; the app shows the progress instead of hiding it.</li>
-        </ul>
-        <a class="cta" href="lookpilot/">Open Look Pilot <span aria-hidden="true">→</span></a>
-      </div>
-      <a class="shot" href="lookpilot/" aria-label="Open Look Pilot">
-        <img src="assets/lookpilot-edit.png" width="1280" height="900" alt="Look Pilot editing tomorrow's outfit: a man in a navy jacket and olive trousers, next to a choice of trousers to swap">
-      </a>
-    </article>
   </main>
 
   <section class="about" id="about">
@@ -140,5 +140,8 @@ footer a{color:var(--muted)}
     <span><a href="https://www.linkedin.com/in/alexandre-criseo/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/alexandrecriseo/alexandrecriseo.github.io" target="_blank" rel="noopener">GitHub</a></span>
   </footer>
 </div>
+<script>
+addEventListener("load",function(){setTimeout(function(){["lookpilot/app/","workbench/app/","ouichef/app/"].forEach(function(base){fetch(base).then(function(r){return r.text()}).then(function(html){var d=new DOMParser().parseFromString(html,"text/html");d.querySelectorAll("script[src],link[rel=stylesheet][href]").forEach(function(el){var l=document.createElement("link");l.rel="prefetch";l.href=new URL(el.getAttribute("src")||el.getAttribute("href"),new URL(base,location.href)).href;document.head.appendChild(l)})}).catch(function(){})})},800)});
+</script>
 </body>
 </html>

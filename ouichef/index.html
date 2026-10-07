@@ -27,6 +27,13 @@ p{margin:0;color:var(--muted)}
 .credits{justify-self:start;max-width:260px;font-size:.8rem;color:var(--muted)}
 .credits a{color:var(--muted)}
 @media (max-width:1100px){body{grid-template-columns:1fr;justify-items:center}.side,.credits{justify-self:center;max-width:390px}}
+.stage{position:relative}
+.sk{position:absolute;inset:0;background:#fff;display:flex;flex-direction:column;gap:18px;padding:28px 32px;transition:opacity .3s ease;z-index:1}
+.sk i{display:block;background:#ecebe7;border-radius:8px;animation:sk 1.4s ease-in-out infinite}
+.sk .row{display:flex;gap:16px;align-items:center}
+.ready .sk{opacity:0;pointer-events:none}
+@keyframes sk{50%{opacity:.5}}
+@media (prefers-reduced-motion:reduce){.sk i{animation:none}}
 </style>
 </head>
 <body>
@@ -35,7 +42,8 @@ p{margin:0;color:var(--muted)}
     <h1>OuiChef</h1>
     <p>From saved food inspiration to a cooked meal. Browse the recipes, scale a recipe to your number of guests, plan the week and ask the Chef what to cook with what you have.</p>
   </div>
-  <div class="phone"><iframe src="app/" title="OuiChef app"></iframe></div>
+  <div class="phone stage"><div class="sk" aria-hidden="true" style="padding:24px 20px;gap:16px"><i style="width:140px;height:30px"></i><i style="width:70px;height:12px"></i><i style="width:100%;height:50px;border-radius:14px"></i><div class="row"><i style="width:50px;height:38px;border-radius:20px"></i><i style="width:88px;height:38px;border-radius:20px"></i><i style="width:88px;height:38px;border-radius:20px"></i></div><i style="width:100%;height:216px;border-radius:18px;margin-top:8px"></i><div class="row"><i style="width:50%;height:130px;border-radius:14px"></i><i style="width:50%;height:130px;border-radius:14px"></i></div></div><iframe src="app/" title="OuiChef app"></iframe></div>
+<script>(function(){var f=document.querySelector("iframe"),w=f.parentNode,t;function done(){clearTimeout(t);w.classList.add("ready")}f.addEventListener("load",function(){setTimeout(done,250)});t=setTimeout(done,15000)})();</script>
   <p class="credits">Recipe photos, cropped and resized: <a href="https://www.flickr.com/photos/17879025@N00/165332040" target="_blank" rel="noopener">sporkist</a> (<a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a>), <a href="https://commons.wikimedia.org/wiki/File:Cumin_carrot_salad_(10600999603).jpg" target="_blank" rel="noopener">pelican from Tokyo</a> (<a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>), <a href="https://www.flickr.com/photos/11121785@N00/144845926" target="_blank" rel="noopener">Tracy Hunter</a> (<a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a>).</p>
 </body>
 </html>
