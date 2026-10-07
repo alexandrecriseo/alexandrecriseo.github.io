@@ -1,0 +1,3 @@
+:HL["/lookpilot/app/_next/static/chunks/31tvjhzqh3831.css","style"]
+:HC["/",""]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"design-system","param":null,"prefetchHints":4192,"slots":{"children":{"name":"layouts","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"fXmhjN0kTdz_w1N_UtL0E"}

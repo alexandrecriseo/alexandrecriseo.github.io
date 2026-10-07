@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Fictional olive chore jacket source illustration</title>
+  <desc id="desc">A front view of an olive chore jacket on a pale studio wall.</desc>
+  <rect width="900" height="1100" fill="#c9c3b6"/><path d="M210 185 355 105 450 175 545 105 690 185 790 405 675 455 620 350 610 900 290 900 280 350 225 455 110 405Z" fill="#68764b" stroke="#36412c" stroke-width="12"/><path d="M355 105 450 250 545 105 450 175Z" fill="#7f8c5d" stroke="#36412c" stroke-width="10"/><path d="M450 250V900" stroke="#36412c" stroke-width="9"/><g fill="#26301f"><circle cx="450" cy="330" r="10"/><circle cx="450" cy="440" r="10"/><circle cx="450" cy="550" r="10"/><circle cx="450" cy="660" r="10"/><circle cx="450" cy="770" r="10"/></g><g fill="#718154" stroke="#36412c" stroke-width="8"><path d="M310 360H405V505H310Z"/><path d="M495 360H590V505H495Z"/><path d="M485 610H585V790H485Z"/></g>
+  <rect x="60" y="980" width="300" height="56" rx="28" fill="#17211f"/><text x="210" y="1017" fill="#fff" font-family="Arial" font-size="24" text-anchor="middle">ORIGINAL DEMO · P08</text>
+</svg>

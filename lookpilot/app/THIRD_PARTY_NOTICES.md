@@ -1,0 +1,213 @@
+# Third-party notices
+
+No project-wide open-source licence is granted by this candidate. Dependencies retain their own terms. SVG illustrations and the synthetic wardrobe were created for this prototype, without copied brand media or personal photos. No Wardrobe/Aesty code or media is included.
+
+The following inventory comes from the exact npm lockfile. Platform-optional packages may not be installed on this machine; their notices are available in their packages on the npm registry. Installed licence/notice texts are preserved in `third-party-licenses/`. The repository does not vendor dependency binaries. Static JavaScript contains framework/runtime code and must retain the accompanying notices.
+
+The interface is built with shadcn/ui components (MIT) copied into `components/ui/` and restyled; `app/shadcn-tailwind.css` is vendored from shadcn@4.21.0 (MIT). The Jost typeface is self-hosted from `@fontsource-variable/jost` under the SIL Open Font License 1.1. Regenerate this inventory with `npm run notices` after any dependency change.
+
+| Package | Version | Declared licence |
+|---|---|---|
+| @alloc/quick-lru | 5.3.0 | MIT |
+| @emnapi/runtime | 1.11.3 | MIT |
+| @floating-ui/core | 1.8.0 | MIT |
+| @floating-ui/dom | 1.8.0 | MIT |
+| @floating-ui/react-dom | 2.1.9 | MIT |
+| @floating-ui/utils | 0.2.12 | MIT |
+| @fontsource-variable/jost | 5.3.0 | OFL-1.1 |
+| @img/colour | 1.1.0 | MIT |
+| @img/sharp-darwin-arm64 | 0.35.4 | Apache-2.0 |
+| @img/sharp-darwin-x64 | 0.35.4 | Apache-2.0 |
+| @img/sharp-freebsd-wasm32 | 0.35.4 | Apache-2.0 |
+| @img/sharp-libvips-darwin-arm64 | 1.3.3 | LGPL-3.0-or-later |
+| @img/sharp-libvips-darwin-x64 | 1.3.3 | LGPL-3.0-or-later |
+| @img/sharp-libvips-linux-arm | 1.3.3 | LGPL-3.0-or-later |
+| @img/sharp-libvips-linux-arm64 | 1.3.3 | LGPL-3.0-or-later |
+| @img/sharp-libvips-linux-ppc64 | 1.3.3 | LGPL-3.0-or-later |
+| @img/sharp-libvips-linux-riscv64 | 1.3.3 | LGPL-3.0-or-later |
+| @img/sharp-libvips-linux-s390x | 1.3.3 | LGPL-3.0-or-later |
+| @img/sharp-libvips-linux-x64 | 1.3.3 | LGPL-3.0-or-later |
+| @img/sharp-libvips-linuxmusl-arm64 | 1.3.3 | LGPL-3.0-or-later |
+| @img/sharp-libvips-linuxmusl-x64 | 1.3.3 | LGPL-3.0-or-later |
+| @img/sharp-linux-arm | 0.35.4 | Apache-2.0 |
+| @img/sharp-linux-arm64 | 0.35.4 | Apache-2.0 |
+| @img/sharp-linux-ppc64 | 0.35.4 | Apache-2.0 |
+| @img/sharp-linux-riscv64 | 0.35.4 | Apache-2.0 |
+| @img/sharp-linux-s390x | 0.35.4 | Apache-2.0 |
+| @img/sharp-linux-x64 | 0.35.4 | Apache-2.0 |
+| @img/sharp-linuxmusl-arm64 | 0.35.4 | Apache-2.0 |
+| @img/sharp-linuxmusl-x64 | 0.35.4 | Apache-2.0 |
+| @img/sharp-wasm32 | 0.35.4 | Apache-2.0 AND LGPL-3.0-or-later AND MIT |
+| @img/sharp-webcontainers-wasm32 | 0.35.4 | Apache-2.0 |
+| @img/sharp-win32-arm64 | 0.35.4 | Apache-2.0 AND LGPL-3.0-or-later |
+| @img/sharp-win32-ia32 | 0.35.4 | Apache-2.0 AND LGPL-3.0-or-later |
+| @img/sharp-win32-x64 | 0.35.4 | Apache-2.0 AND LGPL-3.0-or-later |
+| @jridgewell/gen-mapping | 0.3.13 | MIT |
+| @jridgewell/remapping | 2.3.5 | MIT |
+| @jridgewell/resolve-uri | 3.1.2 | MIT |
+| @jridgewell/sourcemap-codec | 1.6.0 | MIT |
+| @jridgewell/trace-mapping | 0.3.31 | MIT |
+| @next/env | 16.3.5 | MIT |
+| @next/swc-darwin-arm64 | 16.3.5 | MIT |
+| @next/swc-darwin-x64 | 16.3.5 | MIT |
+| @next/swc-linux-arm64-gnu | 16.3.5 | MIT |
+| @next/swc-linux-arm64-musl | 16.3.5 | MIT |
+| @next/swc-linux-x64-gnu | 16.3.5 | MIT |
+| @next/swc-linux-x64-musl | 16.3.5 | MIT |
+| @next/swc-win32-arm64-msvc | 16.3.5 | MIT |
+| @next/swc-win32-x64-msvc | 16.3.5 | MIT |
+| @protobufjs/aspromise | 1.1.2 | BSD-3-Clause |
+| @protobufjs/base64 | 1.1.2 | BSD-3-Clause |
+| @protobufjs/codegen | 2.0.5 | BSD-3-Clause |
+| @protobufjs/eventemitter | 1.1.1 | BSD-3-Clause |
+| @protobufjs/fetch | 1.1.1 | BSD-3-Clause |
+| @protobufjs/float | 1.0.2 | BSD-3-Clause |
+| @protobufjs/path | 1.1.2 | BSD-3-Clause |
+| @protobufjs/pool | 1.1.0 | BSD-3-Clause |
+| @protobufjs/utf8 | 1.1.2 | BSD-3-Clause |
+| @radix-ui/number | 1.1.3 | MIT |
+| @radix-ui/primitive | 1.1.7 | MIT |
+| @radix-ui/react-accessible-icon | 1.1.15 | MIT |
+| @radix-ui/react-accordion | 1.2.20 | MIT |
+| @radix-ui/react-alert-dialog | 1.1.23 | MIT |
+| @radix-ui/react-arrow | 1.1.15 | MIT |
+| @radix-ui/react-aspect-ratio | 1.1.15 | MIT |
+| @radix-ui/react-avatar | 1.2.6 | MIT |
+| @radix-ui/react-checkbox | 1.3.11 | MIT |
+| @radix-ui/react-collapsible | 1.1.20 | MIT |
+| @radix-ui/react-collection | 1.1.15 | MIT |
+| @radix-ui/react-compose-refs | 1.1.5 | MIT |
+| @radix-ui/react-context | 1.2.2 | MIT |
+| @radix-ui/react-context-menu | 2.3.7 | MIT |
+| @radix-ui/react-dialog | 1.1.23 | MIT |
+| @radix-ui/react-direction | 1.1.4 | MIT |
+| @radix-ui/react-dismissable-layer | 1.1.19 | MIT |
+| @radix-ui/react-dropdown-menu | 2.1.24 | MIT |
+| @radix-ui/react-focus-guards | 1.1.6 | MIT |
+| @radix-ui/react-focus-scope | 1.1.16 | MIT |
+| @radix-ui/react-form | 0.1.16 | MIT |
+| @radix-ui/react-hover-card | 1.1.23 | MIT |
+| @radix-ui/react-id | 1.1.4 | MIT |
+| @radix-ui/react-label | 2.1.15 | MIT |
+| @radix-ui/react-menu | 2.1.24 | MIT |
+| @radix-ui/react-menubar | 1.1.24 | MIT |
+| @radix-ui/react-navigation-menu | 1.2.22 | MIT |
+| @radix-ui/react-one-time-password-field | 0.1.16 | MIT |
+| @radix-ui/react-password-toggle-field | 0.1.11 | MIT |
+| @radix-ui/react-popover | 1.1.23 | MIT |
+| @radix-ui/react-popper | 1.3.7 | MIT |
+| @radix-ui/react-portal | 1.1.17 | MIT |
+| @radix-ui/react-presence | 1.1.10 | MIT |
+| @radix-ui/react-primitive | 2.1.10 | MIT |
+| @radix-ui/react-progress | 1.1.16 | MIT |
+| @radix-ui/react-radio-group | 1.4.7 | MIT |
+| @radix-ui/react-roving-focus | 1.1.19 | MIT |
+| @radix-ui/react-scroll-area | 1.2.18 | MIT |
+| @radix-ui/react-select | 2.3.7 | MIT |
+| @radix-ui/react-separator | 1.1.15 | MIT |
+| @radix-ui/react-slider | 1.4.7 | MIT |
+| @radix-ui/react-slot | 1.3.3 | MIT |
+| @radix-ui/react-switch | 1.3.7 | MIT |
+| @radix-ui/react-tabs | 1.1.21 | MIT |
+| @radix-ui/react-toast | 1.2.23 | MIT |
+| @radix-ui/react-toggle | 1.1.18 | MIT |
+| @radix-ui/react-toggle-group | 1.1.19 | MIT |
+| @radix-ui/react-toolbar | 1.1.19 | MIT |
+| @radix-ui/react-tooltip | 1.2.16 | MIT |
+| @radix-ui/react-use-callback-ref | 1.1.4 | MIT |
+| @radix-ui/react-use-controllable-state | 1.2.6 | MIT |
+| @radix-ui/react-use-effect-event | 0.0.5 | MIT |
+| @radix-ui/react-use-escape-keydown | 1.1.5 | MIT |
+| @radix-ui/react-use-is-hydrated | 0.1.3 | MIT |
+| @radix-ui/react-use-layout-effect | 1.1.4 | MIT |
+| @radix-ui/react-use-previous | 1.1.4 | MIT |
+| @radix-ui/react-use-rect | 1.1.4 | MIT |
+| @radix-ui/react-use-size | 1.1.4 | MIT |
+| @radix-ui/react-visually-hidden | 1.2.11 | MIT |
+| @radix-ui/rect | 1.1.3 | MIT |
+| @swc/helpers | 0.5.23 | Apache-2.0 |
+| @tailwindcss/node | 4.3.3 | MIT |
+| @tailwindcss/oxide | 4.3.3 | MIT |
+| @tailwindcss/oxide-android-arm64 | 4.3.3 | MIT |
+| @tailwindcss/oxide-darwin-arm64 | 4.3.3 | MIT |
+| @tailwindcss/oxide-darwin-x64 | 4.3.3 | MIT |
+| @tailwindcss/oxide-freebsd-x64 | 4.3.3 | MIT |
+| @tailwindcss/oxide-linux-arm-gnueabihf | 4.3.3 | MIT |
+| @tailwindcss/oxide-linux-arm64-gnu | 4.3.3 | MIT |
+| @tailwindcss/oxide-linux-arm64-musl | 4.3.3 | MIT |
+| @tailwindcss/oxide-linux-x64-gnu | 4.3.3 | MIT |
+| @tailwindcss/oxide-linux-x64-musl | 4.3.3 | MIT |
+| @tailwindcss/oxide-wasm32-wasi | 4.3.3 | MIT |
+| @tailwindcss/oxide-win32-arm64-msvc | 4.3.3 | MIT |
+| @tailwindcss/oxide-win32-x64-msvc | 4.3.3 | MIT |
+| @tailwindcss/postcss | 4.3.3 | MIT |
+| @types/node | 25.6.0 | MIT |
+| @types/react | 19.2.14 | MIT |
+| @types/react-dom | 19.2.3 | MIT |
+| aria-hidden | 1.2.6 | MIT |
+| baseline-browser-mapping | 2.11.24 | Apache-2.0 |
+| caniuse-lite | 1.0.30001810 | CC-BY-4.0 |
+| class-variance-authority | 0.7.1 | Apache-2.0 |
+| client-only | 0.0.1 | MIT |
+| clsx | 2.1.1 | MIT |
+| cn | 0.3.1 | MIT |
+| csstype | 3.2.3 | MIT |
+| detect-libc | 2.1.2 | Apache-2.0 |
+| detect-node-es | 1.1.0 | MIT |
+| enhanced-resolve | 5.25.1 | MIT |
+| flatbuffers | 25.9.23 | Apache-2.0 |
+| get-nonce | 1.0.1 | MIT |
+| graceful-fs | 4.2.11 | ISC |
+| guid-typescript | 1.0.9 | ISC |
+| jiti | 2.7.0 | MIT |
+| lightningcss | 1.32.0 | MPL-2.0 |
+| lightningcss-android-arm64 | 1.32.0 | MPL-2.0 |
+| lightningcss-darwin-arm64 | 1.32.0 | MPL-2.0 |
+| lightningcss-darwin-x64 | 1.32.0 | MPL-2.0 |
+| lightningcss-freebsd-x64 | 1.32.0 | MPL-2.0 |
+| lightningcss-linux-arm-gnueabihf | 1.32.0 | MPL-2.0 |
+| lightningcss-linux-arm64-gnu | 1.32.0 | MPL-2.0 |
+| lightningcss-linux-arm64-musl | 1.32.0 | MPL-2.0 |
+| lightningcss-linux-x64-gnu | 1.32.0 | MPL-2.0 |
+| lightningcss-linux-x64-musl | 1.32.0 | MPL-2.0 |
+| lightningcss-win32-arm64-msvc | 1.32.0 | MPL-2.0 |
+| lightningcss-win32-x64-msvc | 1.32.0 | MPL-2.0 |
+| long | 5.3.2 | Apache-2.0 |
+| lucide-react | 1.47.0 | ISC |
+| magic-string | 0.30.21 | MIT |
+| nanoid | 3.3.19 | MIT |
+| next | 16.3.5 | MIT |
+| onnxruntime-common | 1.30.0 | MIT |
+| onnxruntime-web | 1.30.0 | MIT |
+| picocolors | 1.1.1 | ISC |
+| platform | 1.3.6 | MIT |
+| postcss | 8.5.23 | MIT |
+| postcss | 8.5.28 | MIT |
+| protobufjs | 7.6.6 | BSD-3-Clause |
+| radix-ui | 1.6.7 | MIT |
+| react | 19.2.5 | MIT |
+| react-dom | 19.2.5 | MIT |
+| react-remove-scroll | 2.7.2 | MIT |
+| react-remove-scroll-bar | 2.3.8 | MIT |
+| react-style-singleton | 2.2.3 | MIT |
+| scheduler | 0.27.0 | MIT |
+| semver | 7.8.5 | ISC |
+| sharp | 0.35.4 | Apache-2.0 |
+| sonner | 2.0.8 | MIT |
+| source-map-js | 1.2.1 | BSD-3-Clause |
+| styled-jsx | 5.1.6 | MIT |
+| tailwindcss | 4.3.3 | MIT |
+| tapable | 2.3.3 | MIT |
+| tslib | 2.8.1 | 0BSD |
+| tw-animate-css | 1.4.0 | MIT |
+| typescript | 6.0.3 | Apache-2.0 |
+| undici-types | 7.19.2 | MIT |
+| use-callback-ref | 1.3.3 | MIT |
+| use-sidecar | 1.1.3 | MIT |
+| vaul | 1.1.2 | MIT |
+
+Next.js vendored module notices and separate copyright notices are also retained. Some cover build-time modules not present in the final browser payload. They are preserved conservatively; no rights to original project code are implied.
+
+## Local background-removal model
+
+U²-Net small uses the upstream Apache-2.0 licence. The pinned ONNX conversion, checksums, ONNX Runtime MIT licence and upstream provenance are documented in [public/image-tools/README.md](public/image-tools/README.md); licence texts are shipped beside the model.

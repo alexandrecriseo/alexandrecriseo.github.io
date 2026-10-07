@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Approximate blue striped shirt demo cutout</title><desc id="desc">Original vector illustration made for Tomorrow Fit P08.</desc>
+  <defs><pattern id="s" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#edf2f1"/><rect width="6" height="24" fill="#6f93a5"/></pattern></defs>
+  <path d="M265 100 400 55 535 100 690 205 610 355 535 300 520 700H280L265 300 190 355 110 205Z" fill="url(#s)" stroke="#385567" stroke-width="10"/><path d="M320 82 400 185 480 82 400 55Z" fill="#faf8f1" stroke="#385567" stroke-width="8"/><path d="M400 185V680" stroke="#385567" stroke-width="7"/><g fill="#385567"><circle cx="400" cy="250" r="7"/><circle cx="400" cy="330" r="7"/><circle cx="400" cy="410" r="7"/><circle cx="400" cy="490" r="7"/><circle cx="400" cy="570" r="7"/></g>
+</svg>

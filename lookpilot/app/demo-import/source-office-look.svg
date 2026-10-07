@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Fictional office outfit source illustration</title>
+  <desc id="desc">A blue striped shirt and charcoal trousers arranged on a warm studio background.</desc>
+  <defs><pattern id="stripes" width="28" height="28" patternUnits="userSpaceOnUse"><rect width="28" height="28" fill="#e9f0ef"/><rect width="7" height="28" fill="#6f93a5"/></pattern></defs>
+  <rect width="900" height="1100" fill="#d7cfc0"/><rect x="34" y="34" width="832" height="1032" rx="38" fill="#eee8dc"/>
+  <g transform="translate(120 90) rotate(-4 280 300)"><path d="M210 60 285 20 360 60 455 118 410 245 354 210 345 535 225 535 216 210 160 245 115 118Z" fill="url(#stripes)" stroke="#385567" stroke-width="8"/><path d="M245 52 285 115 325 52 285 20Z" fill="#f8f6f0" stroke="#385567" stroke-width="6"/><path d="M285 115V515" stroke="#385567" stroke-width="5"/><g fill="#385567"><circle cx="285" cy="170" r="6"/><circle cx="285" cy="235" r="6"/><circle cx="285" cy="300" r="6"/><circle cx="285" cy="365" r="6"/></g></g>
+  <g transform="translate(380 530) rotate(5 180 250)"><path d="M75 25H285L320 490 215 510 180 190 145 510 40 490Z" fill="#343a40" stroke="#20252a" stroke-width="9"/><path d="M80 70H280M180 30V190" stroke="#697078" stroke-width="6"/></g>
+  <rect x="60" y="990" width="300" height="56" rx="28" fill="#17211f"/><text x="210" y="1027" fill="#fff" font-family="Arial" font-size="24" text-anchor="middle">ORIGINAL DEMO · P08</text>
+</svg>
