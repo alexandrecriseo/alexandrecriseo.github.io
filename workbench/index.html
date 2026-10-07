@@ -45,13 +45,12 @@ p{margin:0;color:var(--muted)}
   <aside class="side">
     <a class="back" href="../">← Portfolio</a>
     <h1>Job Search Workbench</h1>
-    <p>The tool I run my own job search with. It pulls roles from public applicant-tracking APIs, drops the ones that fail hard criteria, then drafts a score that I validate by hand.</p>
+    <p>The tool I run my job search with. It reads the public job boards of about 3,000 companies, drops the roles that miss my location or role type, and has an AI model score the rest from the full description.</p>
     <p>Try it: open a role to compare its two scores, then change its stage.</p>
     <h2>Two scores per role</h2>
     <ul class="models">
-      <li><b>~ Heuristic</b><span>Rules and keywords on the title, location and description. Instant and free, so every new role gets one, but it matches words, not meaning.</span></li>
-      <li><b>✦ AI</b><span>A model reads the full description against my background and scores the same five dimensions, with reasons and points to check. It only runs on roles that pass the hard criteria.</span></li>
-      <li><b>Validation</b><span>Both stay drafts until I confirm a score by hand.</span></li>
+      <li><b>~ Heuristic</b><span>Instant keyword rules on the title, location and description. Every new role gets one.</span></li>
+      <li><b>✦ AI</b><span>A model reads the whole description against my background and scores five dimensions, with reasons. It runs only on roles that pass my criteria.</span></li>
     </ul>
   </aside>
   <main class="window"><div class="bar" aria-hidden="true"><i></i><i></i><i></i></div><div class="stage"><div class="sk" aria-hidden="true"><div class="row"><i style="width:140px;height:18px"></i><i style="width:80px;height:14px"></i><span style="flex:1"></span><i style="width:70px;height:32px"></i></div><div class="row"><i style="width:280px;height:32px"></i><i style="width:110px;height:32px"></i><i style="width:130px;height:32px"></i><i style="width:120px;height:32px"></i></div><div class="row" style="align-items:flex-start;margin-top:12px"><div style="flex:1;display:flex;flex-direction:column;gap:12px"><i style="width:100%;height:20px"></i><i style="width:100%;height:120px"></i><i style="width:100%;height:120px"></i><i style="width:100%;height:120px"></i></div><div style="flex:1;display:flex;flex-direction:column;gap:12px"><i style="width:100%;height:20px"></i><i style="width:100%;height:120px"></i><i style="width:100%;height:120px"></i><i style="width:100%;height:120px"></i></div><div style="flex:1;display:flex;flex-direction:column;gap:12px"><i style="width:100%;height:20px"></i><i style="width:100%;height:120px"></i><i style="width:100%;height:120px"></i><i style="width:100%;height:120px"></i></div></div></div><iframe src="app/" title="Job Search Workbench app"></iframe></div></main>

@@ -30,7 +30,7 @@ a{color:var(--accent);text-underline-offset:3px}
 a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
 header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:baseline;justify-content:space-between;padding:40px 0 24px;border-bottom:1px solid var(--line)}
 .name{font:600 1.25rem/1.2 var(--display);margin:0}
-.name span{color:var(--muted);font-weight:500}
+.name span{display:block;margin-top:4px;color:var(--muted);font:400 .95rem/1.3 var(--body)}
 nav{display:flex;gap:20px;font-size:.95rem}
 nav a{color:var(--fg);text-decoration:none}
 nav a:hover{color:var(--accent)}
@@ -42,8 +42,7 @@ h2{font:600 1.5rem/1.2 var(--display);margin:0;text-wrap:balance}
 .project-text{display:flex;flex-direction:column;gap:14px;min-width:0}
 .kicker{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .lead{font-size:1.08rem;margin:0}
-.choices{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:.96rem;color:var(--muted)}
-.choices b{color:var(--fg);font-weight:500}
+.note{margin:0;font-size:.96rem;color:var(--muted)}
 .cta{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;background:var(--fg);color:var(--bg);text-decoration:none;font:500 1rem var(--body);padding:11px 18px;border-radius:6px}
 .cta:hover{background:var(--accent)}
 .shot{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface);box-shadow:0 18px 40px -24px rgba(0,0,0,.35)}
@@ -54,6 +53,7 @@ h2{font:600 1.5rem/1.2 var(--display);margin:0;text-wrap:balance}
 .about-text p{margin:0 0 16px}
 footer{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;padding:28px 0 48px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
 footer a{color:var(--muted)}
+footer span:last-child{display:flex;gap:20px}
 @media (max-width:820px){
   .project,.about{grid-template-columns:1fr;gap:24px}
   .intro{padding:44px 0 32px}
@@ -63,7 +63,7 @@ footer a{color:var(--muted)}
 <body>
 <div class="wrap">
   <header>
-    <p class="name">Alexandre Criseo <span>· Product leader, Paris</span></p>
+    <p class="name">Alexandre Criseo<span>Product leader in Paris</span></p>
     <nav aria-label="Main">
       <a href="#work">Work</a>
       <a href="#about">About</a>
@@ -71,8 +71,8 @@ footer a{color:var(--muted)}
   </header>
 
   <section class="intro">
-    <h1>Products I built because I needed them.</h1>
-    <p>I, or people close to me, use each of these every day. Each one is playable here, in the browser.</p>
+    <h1>Three apps I built for my own life.</h1>
+    <p>I use them every day, or people close to me do. You can try each one here, in your browser.</p>
   </section>
 
   <main id="work">
@@ -80,11 +80,8 @@ footer a{color:var(--muted)}
       <div class="project-text">
         <span class="kicker">Look Pilot</span>
         <h2>Tomorrow's office outfit, from the clothes you already own.</h2>
-        <p class="lead">Most mornings the hard part is picking a combination that suits the weather, the day and what is clean. Look Pilot suggests one outfit, shows it on you, and lets you swap a single piece.</p>
-        <ul class="choices">
-          <li><b>Edit one garment, keep the person.</b> Changing a piece edits only that garment on the last photo with Ideogram 4.5, so the face and pose stay the same.</li>
-            <li><b>Show the wait.</b> A swap takes about 9 seconds while trying combinations; the app shows the progress instead of hiding it.</li>
-        </ul>
+        <p class="lead">It picks tomorrow's outfit from my wardrobe, based on the weather and what is clean, and shows it on me. I can swap one piece and see the new look.</p>
+        <p class="note">Built with Nano Banana 2 for the first render and Ideogram 4.5 to change one garment while keeping the face and pose.</p>
         <a class="cta" href="lookpilot/">Open Look Pilot <span aria-hidden="true">→</span></a>
       </div>
       <a class="shot" href="lookpilot/" aria-label="Open Look Pilot">
@@ -94,13 +91,9 @@ footer a{color:var(--muted)}
     <article class="project" id="workbench">
       <div class="project-text">
         <span class="kicker">Job Search Workbench</span>
-        <h2>From a noisy job feed to a deliberate application decision.</h2>
-        <p class="lead">The tool I run my own job search with. It pulls roles from public applicant-tracking APIs, drops the ones that fail hard criteria, then drafts a score that I validate by hand.</p>
-        <ul class="choices">
-          <li><b>Explain before automating.</b> Every score shows its five dimensions, its reasons and the points still to check, so the decision stays with me.</li>
-          <li><b>Separate priority from progress.</b> Filters decide what to review; stages record a decision.</li>
-          <li><b>One role, one line.</b> A role published in several countries is merged into a single card.</li>
-        </ul>
+        <h2>The few roles worth applying to, out of thousands.</h2>
+        <p class="lead">The tool I run my job search with. It reads the public job boards of about 3,000 companies, drops the roles that miss my location or role type, and has an AI model score the rest from the full description.</p>
+        <p class="note">Each score shows five dimensions, the reasons behind them and what to check before applying.</p>
         <a class="cta" href="workbench/">Open the workbench <span aria-hidden="true">→</span></a>
       </div>
       <a class="shot" href="workbench/" aria-label="Open the workbench">
@@ -110,13 +103,9 @@ footer a{color:var(--muted)}
     <article class="project" id="ouichef">
       <div class="project-text">
         <span class="kicker">OuiChef</span>
-        <h2>From saved food inspiration to a meal you actually cook.</h2>
-        <p class="lead">We save recipes from videos and posts, then never cook them: quantities are vague, nothing is planned and the shopping list is missing. OuiChef connects the loop: save, review, plan, shop, cook.</p>
-        <ul class="choices">
-          <li><b>Review before trust.</b> An imported recipe starts as an editable draft, because AI extraction can get quantities wrong.</li>
-          <li><b>One quantity engine.</b> Portions, meal planning and the grocery list share the same rules. Scaling a recipe changes amounts and leaves times and temperatures alone.</li>
-          <li><b>Local first.</b> The library, plan and checklists work without an account.</li>
-        </ul>
+        <h2>Recipe videos you saved, turned into meals you cook.</h2>
+        <p class="lead">We save recipe videos and never cook them. Paste an Instagram, TikTok or YouTube link and OuiChef writes out the recipe, then helps plan the week and builds the shopping list.</p>
+        <p class="note">Scaling a recipe for more guests changes the amounts and leaves cooking times alone.</p>
         <a class="cta" href="ouichef/">Open OuiChef <span aria-hidden="true">→</span></a>
       </div>
       <a class="shot shot-phone" href="ouichef/" aria-label="Open OuiChef">
@@ -128,16 +117,15 @@ footer a{color:var(--muted)}
   <section class="about" id="about">
     <h2>About me</h2>
     <div class="about-text">
-      <p>I'm a product leader based in Paris. Since January 2026 I have been CPO at Ekie, a French legal-care platform offered by 1,000 works councils to 500,000 employees, where I own the member app, the lawyer workspace and the back office.</p>
+      <p>I'm a product leader based in Paris. Since January 2026 I have been CPO at Ekie, a French legal assistance platform offered by 1,000 works councils to 500,000 employees, where I own the member app, the lawyer workspace and the back office.</p>
       <p>Before that I spent five years at Fintecture, a payments fintech, as its first Product Manager, then Lead PM, then Product Director. Over that period the company went from 100 to more than 250,000 payments a month. Smart Transfer, the product I took over in 2022, reached €100M a month within 12 months.</p>
-      <p>Outside work I build the software I need. The products on this page solve problems from my own life, and I keep using them.</p>
       <p>Engineering degree from CentraleSupélec and MSc in Applied Mathematics from Imperial College London. French and English.</p>
     </div>
   </section>
 
   <footer>
     <span>Alexandre Criseo</span>
-    <span><a href="https://www.linkedin.com/in/alexandre-criseo/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/alexandrecriseo/alexandrecriseo.github.io" target="_blank" rel="noopener">GitHub</a></span>
+    <span><a href="https://www.linkedin.com/in/alexandre-criseo/" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/alexandrecriseo/alexandrecriseo.github.io" target="_blank" rel="noopener">GitHub</a></span>
   </footer>
 </div>
 <script>
