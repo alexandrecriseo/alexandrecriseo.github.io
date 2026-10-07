@@ -24,7 +24,6 @@ p{margin:0;color:var(--muted)}
 .models li{display:flex;flex-direction:column;gap:2px;padding-bottom:12px;border-bottom:1px solid var(--line)}
 .models b{font-weight:500;color:var(--fg)}
 .models span{color:var(--muted)}
-.models .dropped b{text-decoration:line-through;text-decoration-color:var(--muted)}
 .window{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface);box-shadow:0 30px 60px -34px rgba(0,0,0,.45)}
 .bar{display:flex;gap:6px;padding:10px 12px;border-bottom:1px solid var(--line)}
 .bar i{width:10px;height:10px;border-radius:50%;background:var(--line)}
@@ -33,17 +32,16 @@ p{margin:0;color:var(--muted)}
 </head>
 <body>
   <aside class="side">
-    <a class="back" href="../">← Portfolio</a>
+    <a class="back" href="../" target="_blank" rel="noopener">← Portfolio</a>
     <h1>Look Pilot</h1>
     <p>Choose tomorrow's office outfit from the clothes you already own. Look Pilot suggests one outfit for the weather and the day, shows it on you, and lets you swap a single piece without starting over.</p>
     <p>Try it: open <b>Edit</b>, change the trousers or the jacket, and watch the photo update.</p>
-    <p><a href="app/">Open full screen</a></p>
+    <p><a href="app/" target="_blank" rel="noopener">Open full screen</a></p>
     <h2>Models</h2>
     <ul class="models">
       <li><b>Nano Banana 2</b><span>Gemini 3.1 Flash Image. Creates the person and the first full render of the outfit, and the clothing photos.</span></li>
       <li><b>Ideogram 4.5 Precise Edit</b><span>Through Runware. Changes one garment on the last photo, so the face and pose stay the same. About 9 s per swap while trying, high quality once an outfit is saved.</span></li>
       <li><b>U²-Net small</b><span>Removes the background from clothing photos, on the device.</span></li>
-      <li class="dropped"><b>Pruna P-Image-Try-On</b><span>Tested against Nano Banana 2 in a blind review and dropped: garments scored 3.2 out of 5 against 4.4.</span></li>
     </ul>
   </aside>
   <main class="window"><div class="bar" aria-hidden="true"><i></i><i></i><i></i></div><iframe src="app/" title="Look Pilot app"></iframe></main>
